@@ -4,6 +4,10 @@ Simple echo name AWS Lambda function in Python
 ## Description
 This AWS Lambda function is a very simple "echo" type service where it'll echo your input object back to you in its response.
 
+## Pre-requisites
+* Python 3.7 runtime environment with `pip` installed
+* Access to the internet to be able to pre-install `jsonschema` module (`pip install jsonschema`)
+
 ## Invokation and Response
 The expected input object is a simple JSON object with one field:
 ```
@@ -24,10 +28,6 @@ Example response for the above input object:
   "timestamp": "2022-02-03T23:14:19.705862"
 }
 ```
-## Pre-requisites
-* Python 3.7 runtime environment with `pip` installed
-* Access to the internet to be able to pre-install `jsonschema` module (`pip install jsonschema`)
-
 ## Testing
 To test the `lambda_function.py` file simply run:
 ```
