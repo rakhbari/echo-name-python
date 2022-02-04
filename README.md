@@ -1,4 +1,4 @@
-# echo-name-python
+# lambda-echo-name-python
 Simple echo name AWS Lambda function in Python
 
 ## Description
